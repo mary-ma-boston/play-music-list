@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trackList {
+  margin: 10px;
+}
+
+.listItem {
+  padding: 10px;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+
+}
+
+.selectedStyle {
+  border: 1px solid red;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 2px;
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+
